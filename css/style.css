@@ -49,3 +49,23 @@ custom carousel
 /*----------------------------------
  pro-benefits package end
  ----------------------------------- */
+/* ---------------------------------
+footer start 
+---------------------------------- */
+.footer-custom{
+    background-color: #000000;
+}
+.btn-play{
+    background-color: #191970;
+}
+.play-small{
+    color: #FFFFFF;
+    font-size: 10px;
+}
+.google-play-store{
+    color: #FFFFFF;
+    font-size: 14px;
+}
+/* ---------------------------------
+footer end
+---------------------------------- */
