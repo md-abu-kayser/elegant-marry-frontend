@@ -23,3 +23,29 @@ custom carousel
     padding: 6px 12px;
     
 }
+.information-benefits-background{
+    background-color: #F5FFFA;
+}
+.button-plan{
+    background-color: #87CEFA;
+    color: #191970;
+}
+/*----------------------------------
+ pro-benefits package
+ ----------------------------------- */
+.pro-price{
+    color: #E6E6FA;
+}
+.pro-benefits{
+    background-color: #191970;
+}
+.pro-column{
+    color: #CAD5E2;
+}
+.button-pro-plan{
+    background-color: #FFFFFF;
+    color: #242B2E;
+}
+/*----------------------------------
+ pro-benefits package end
+ ----------------------------------- */
