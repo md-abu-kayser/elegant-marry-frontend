@@ -1,3 +1,4 @@
+// JavaScript Start
 // Theme Management
 const themes = {
   corporate: {
@@ -36,12 +37,12 @@ function changeTheme(themeName) {
   const theme = themes[themeName];
   document.documentElement.setAttribute("data-theme", themeName);
 
-  // Update CSS variables for custom animations
+  // CSS Variables For Custom Animations
   Object.entries(theme).forEach(([key, value]) => {
     document.documentElement.style.setProperty(`--${key}`, value);
   });
 
-  // Show theme change notification
+  // Show Themes Change Notification
   showNotification(
     `Theme changed to ${themeName.charAt(0).toUpperCase() + themeName.slice(1)}`
   );
@@ -65,13 +66,12 @@ function toggleDarkMode() {
 
 // Notification System
 function showNotification(message, type = "info") {
-  // Remove existing notifications
   const existingNotification = document.getElementById("custom-notification");
   if (existingNotification) {
     existingNotification.remove();
   }
 
-  // Create new notification
+  // Create New Notification
   const notification = document.createElement("div");
   notification.id = "custom-notification";
   notification.className = `alert alert-${type} fixed top-20 right-4 z-50 max-w-sm shadow-2xl animate-slide-up`;
@@ -84,7 +84,7 @@ function showNotification(message, type = "info") {
 
   document.body.appendChild(notification);
 
-  // Auto remove after 3 seconds
+  // Auto Remove After 3 Seconds
   setTimeout(() => {
     notification.remove();
   }, 3000);
@@ -92,7 +92,6 @@ function showNotification(message, type = "info") {
 
 // Smooth Scrolling
 document.addEventListener("DOMContentLoaded", function () {
-  // Smooth scroll for anchor links
   document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
     anchor.addEventListener("click", function (e) {
       e.preventDefault();
@@ -106,7 +105,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 
-  // Navbar background on scroll
+  // Navbar Background On Scroll
   window.addEventListener("scroll", function () {
     const header = document.querySelector("header");
     if (window.scrollY > 100) {
@@ -116,7 +115,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 
-  // Intersection Observer for animations
+  // Observer For Animations
   const observerOptions = {
     threshold: 0.1,
     rootMargin: "0px 0px -50px 0px",
@@ -130,12 +129,9 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }, observerOptions);
 
-  // Observe all sections
   document.querySelectorAll("section").forEach((section) => {
     observer.observe(section);
   });
-
-  // Initialize theme
   changeTheme("corporate");
 });
 
@@ -144,7 +140,7 @@ function handleNewsletterSubmit(e) {
   e.preventDefault();
   const email = e.target.querySelector('input[type="email"]').value;
 
-  // Simulate API call
+  // Simulate API Call
   showNotification("Thank you for subscribing to our newsletter!", "success");
   e.target.reset();
 }
@@ -156,7 +152,7 @@ function selectPackage(packageName, price) {
     "success"
   );
 
-  // Animate the selected package
+  // Animate Package
   const packageElement = event.target.closest(".card");
   packageElement.classList.add("ring-4", "ring-primary", "animate-pulse");
 
@@ -183,11 +179,10 @@ function initLazyLoading() {
   images.forEach((img) => imageObserver.observe(img));
 }
 
-// Initialize when DOM is loaded
+// DOM Load
 document.addEventListener("DOMContentLoaded", function () {
   initLazyLoading();
 
-  // Add loading states to buttons
   document.querySelectorAll(".btn").forEach((btn) => {
     btn.addEventListener("click", function () {
       if (this.classList.contains("btn-loading")) {
@@ -202,14 +197,13 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-// Performance monitoring
+// Performance Monitoring
 let lastScrollTop = 0;
 window.addEventListener("scroll", function () {
   const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
   const scrollDirection = scrollTop > lastScrollTop ? "down" : "up";
   lastScrollTop = scrollTop;
 
-  // Update progress bar if exists
   const progressBar = document.getElementById("scroll-progress");
   if (progressBar) {
     const winHeight = window.innerHeight;
@@ -219,8 +213,9 @@ window.addEventListener("scroll", function () {
   }
 });
 
-// Export functions for global access
 window.changeTheme = changeTheme;
 window.toggleDarkMode = toggleDarkMode;
 window.selectPackage = selectPackage;
 window.handleNewsletterSubmit = handleNewsletterSubmit;
+
+// JavaScript End

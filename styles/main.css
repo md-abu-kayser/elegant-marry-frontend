@@ -1,4 +1,4 @@
-/* Custom Animations and Styles */
+/* Custom Animations CSS And Styles Start */
 @keyframes shimmer {
   0% {
     background-position: -200px 0;
@@ -44,7 +44,7 @@
   background: #555;
 }
 
-/* Loading animation */
+/* Loading Animation */
 .loading-dots {
   display: inline-block;
   position: relative;
@@ -101,7 +101,7 @@
   }
 }
 
-/* Enhanced hover effects */
+/* hover effects */
 .hover-lift {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -110,7 +110,7 @@
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
 }
 
-/* Gradient text animation */
+/* Gradient Text Animation */
 .gradient-text {
   background: linear-gradient(45deg, #4f46e5, #ec4899, #06b6d4);
   background-size: 200% 200%;
@@ -131,3 +131,5 @@
     background-position: 0% 50%;
   }
 }
+
+/* css end  */

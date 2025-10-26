@@ -1,12 +1,12 @@
 <!--
-	Elegant Marry — Frontend
+	Elegant Marry - Frontend
 	A clean, accessible, performant static frontend for an elegant wedding/event website.
-	Repo: Kawser420/elegant-marry-frontend
+	Repo: go-kawser/elegant-marry-frontend
 -->
 
-# Elegant Marry — Frontend
+# Elegant Marry | Frontend
 
-A high-quality, accessible, and performance-minded static frontend for wedding and event websites.
+**A high-quality, accessible, and performance-minded static frontend for wedding and event websites.**
 
 This repository contains the client-side code (HTML, CSS, JavaScript, and assets) powering a minimal, elegant, and responsive landing site suitable for wedding invitations, event details, RSVP, and photo galleries. It's intentionally lightweight and framework-agnostic to make it easy to host on any static hosting (GitHub Pages, Netlify, Vercel, S3, etc.).
 
@@ -17,7 +17,7 @@ This repository contains the client-side code (HTML, CSS, JavaScript, and assets
 - Clean, semantic HTML structure designed for accessibility and SEO.
 - Responsive layout with a mobile-first approach.
 - Performance-focused: minimal assets, optimized images, and simple JavaScript.
-- Easy to customize and extend — no build toolchain required for basic usage.
+- Easy to customize and extend - no build toolchain required for basic usage.
 - Ready to host as a static site (GitHub Pages / Netlify / Vercel).
 
 ---
@@ -40,16 +40,16 @@ This repository contains the client-side code (HTML, CSS, JavaScript, and assets
 
 ---
 
-### Demo
+### Demo Link
 
 - GitHub Pages: https://kawser420.github.io/elegant-marry-frontend/
-- git clone https://github.com/Kawser420/elegant-marry-frontend.git
+- git clone https://github.com/go-kawser/elegant-marry-frontend.git
 
 ---
 
 ### Project structure
 
-Top-level layout (important files and folders):
+**Top-level layout---> important files and folders:**
 
 ```
 index.html           # Main static HTML entry
@@ -58,13 +58,13 @@ images/              # Image assets (optimize before production)
 js/
 	script.js        # Small interactive bits (menu, RSVP handling)
 styles/
-	main.css         # Project styles — mobile-first, responsive
+	main.css         # Project styles - mobile-first, responsive
 ```
 
-Design notes:
+**Design notes:**
 
 - All critical styles are in `styles/main.css`. Keep CSS simple and componentized.
-- `js/script.js` contains unobtrusive JavaScript — site works with JS disabled for core content.
+- `js/script.js` contains unobtrusive JavaScript - site works with JS disabled for core content.
 
 ---
 
@@ -73,7 +73,7 @@ Design notes:
 - HTML5 (semantic)
 - CSS3 (Flexbox + CSS variables)
 - Vanilla JavaScript (ES2015+)
-- No build step by default — optional Node.js tooling for advanced workflows
+- No build step by default - optional Node.js tooling for advanced workflows
 
 ---
 
@@ -87,7 +87,7 @@ Design notes:
 ### Customizing the site
 
 - Update content in `index.html` (headings, event details, photos).
-- Replace images in `/images` — keep filenames or update references in HTML.
+- Replace images in `/images` - keep filenames or update references in HTML.
 - Edit styles in `styles/main.css` to tune typography, spacing, and color scheme.
 - Add or update JavaScript in `js/script.js` for interactive features like RSVP or gallery lightbox.
 
@@ -99,13 +99,13 @@ Design notes:
 
 ---
 
-### Accessibility & SEO
+### Accessibility | SEO
 
 #### This project follows core accessibility and SEO principles:
 
 - Semantic HTML and logical heading order (H1 → H2 → ...).
 - Meaningful alt text for images (edit images in `images/` and set `alt` attributes).
-- Color contrast considered in styles — verify with tools like Lighthouse and axe.
+- Color contrast considered in styles - verify with tools like Lighthouse and axe.
 - Mobile-first responsive design and touch-target sizes.
 
 #### Suggested checks before publishing:
@@ -115,16 +115,16 @@ Design notes:
 
 ---
 
-### Performance guidance
+#### Performance guidance
 
-1. Keep the site fast and lean:
+1. **Keep the site fast and lean:**
 
 - Optimize and compress images (lossy for photos, lossless for graphics).
 - Defer non-critical JavaScript and inline critical CSS if needed.
 - Use modern image formats (WebP or AVIF) and provide fallbacks for older browsers.
 - Minimize third-party scripts and fonts.
 
-2. Tools to use:
+2. **Tools to use:**
 
 - Lighthouse (Chrome DevTools)
 - ImageOptim / Squoosh for image optimization
@@ -132,56 +132,51 @@ Design notes:
 
 ---
 
-### Deployment
+#### Deployment
 
-This is a static site — deploy to any static hosting:
+**This is a static site - deploy to any static hosting:**
 
-- GitHub Pages: push the `main` branch and enable Pages in repo settings (or put files in `gh-pages` branch).
-- Netlify: drag & drop build folder or connect repo for continuous deploys.
-- Vercel: connect repo and configure as a static site.
+- **GitHub Pages:** push the `main` branch and enable Pages in repo settings (or put files in `gh-pages` branch).
+- **Netlify:** drag & drop build folder or connect repo for continuous deploys.
+- **Vercel:** connect repo and configure as a static site.
 
-No build step is required unless you add tooling; if you add a build (e.g., bundler), include the build output folder when deploying.
+No build step is required unless you add tooling; if you add a build | bundler | include the build output folder when deploying.
 
 ---
 
 #### Contributing
 
-Small, focused contributions are welcome. Suggested workflow:
+**Small, focused contributions are welcome. Suggested workflow:**
 
 1. Fork the repository.
 2. Create a branch: `feature/your-feature` or `fix/issue`.
 3. Make changes and keep commits atomic and descriptive.
 4. Open a pull request with a clear description of what you changed and why.
 
-Please include any visual screenshots or a short demo for UI changes.
+**Please include any visual screenshots or a short demo for UI changes.**
 
 ---
 
-#### File a bug / Feature request
+#### File a bug | Feature request
 
-1. Use the repository's Issues tab on GitHub. Provide:
+1. **Use the repository's Issues tab on GitHub. Provide:**
 
 - Steps to reproduce
 - Expected vs actual behavior
-- Screenshots, console logs, and environment (browser/version)
-
----
-
-##### License
-
-This project has no license file in the repository by default. Add a `LICENSE` file (MIT or other) if you want to make the code reusable under a specific license. Example: `MIT` is a permissive choice.
+- Screenshots, console logs, and environment | browser/version
 
 ---
 
 ##### Contact
 
-Maintainer: Kawser420
+**Maintainer:** go-kawser
+**Email:** abu.kawser.official@gmail.com
 
 For questions or customizations, open an issue or contact the maintainer from the GitHub profile.
 
 ---
 
-Thank you for checking out Elegant Marry — Frontend. If you'd like, I can also:
+**Thank you for checking out Elegant Marry | Frontend. If you'd like, I can also:**
 
 - Add a polished project screenshot to this README.
 - Add a small CONTRIBUTING.md and CODE_OF_CONDUCT.
