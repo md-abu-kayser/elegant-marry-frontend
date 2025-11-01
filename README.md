@@ -181,3 +181,5 @@ For questions or customizations, open an issue or contact the maintainer from th
 - Add a polished project screenshot to this README.
 - Add a small CONTRIBUTING.md and CODE_OF_CONDUCT.
 - Add a lightweight NPM-based dev script for serving the site and running a simple linter.
+
+---
