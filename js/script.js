@@ -1,4 +1,5 @@
 // JavaScript Start
+// -------------------------------------------------
 // Theme Management
 const themes = {
   corporate: {

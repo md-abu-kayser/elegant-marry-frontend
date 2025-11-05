@@ -1,7 +1,7 @@
 <!--
 	Elegant Marry - Frontend
 	A clean, accessible, performant static frontend for an elegant wedding/event website.
-	Repo: go-kawser/elegant-marry-frontend
+	Repo: md-abu-kayser/elegant-marry-frontend
 -->
 
 # Elegant Marry | Frontend
@@ -42,8 +42,8 @@ This repository contains the client-side code (HTML, CSS, JavaScript, and assets
 
 ### Demo Link
 
-- GitHub Pages: https://kawser420.github.io/elegant-marry-frontend/
-- git clone https://github.com/go-kawser/elegant-marry-frontend.git
+- GitHub Pages: https://md-abu-kayser.github.io/elegant-marry-frontend/
+- git clone https://github.com/md-abu-kayser/elegant-marry-frontend.git
 
 ---
 
@@ -157,7 +157,7 @@ No build step is required unless you add tooling; if you add a build | bundler |
 
 ---
 
-#### File a bug | Feature request
+### File a bug | Feature request
 
 1. **Use the repository's Issues tab on GitHub. Provide:**
 
@@ -167,16 +167,30 @@ No build step is required unless you add tooling; if you add a build | bundler |
 
 ---
 
-##### Contact
+### License
 
-**Maintainer:** go-kawser
-**Email:** abu.kawser.official@gmail.com
-
-For questions or customizations, open an issue or contact the maintainer from the GitHub profile.
+- This project is licensed under the terms of the **[MIT License](./LICENSE)**.
+- You may replace or update the license as needed for client or proprietary projects.
 
 ---
 
-**Thank you for checking out Elegant Marry | Frontend. If you'd like, I can also:**
+### Contact and Maintainer
+
+**Maintainer:** [md-abu-kayser](https://github.com/md-abu-kayser)  
+**Name:** Md Abu Kayser - Full-Stack Engineer
+
+- **GitHub:** [github.com/abu.kayser-official](https://github.com/md-abu-kayser)
+- **Email:** [abu.kayser.official@gmail.com](mailto:abu.kayser.official@gmail.com)
+- **Project:** _elegant-marry-frontend_
+
+If you’d like this README tailored for a specific purpose - such as **hiring managers**, **open-source contributors**, or **client deliverables** - feel free to request a custom tone or format.
+
+---
+
+**Thank you for reviewing this project!**  
+It’s designed to be **clean, well-structured**, and **pleasant to explore** - perfect for interviews, portfolio showcases, or professional demos.
+
+**Thank you again and again for checking out Elegant Marry | Frontend. If you'd like, I can also:**
 
 - Add a polished project screenshot to this README.
 - Add a small CONTRIBUTING.md and CODE_OF_CONDUCT.
