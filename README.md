@@ -99,7 +99,7 @@ styles/
 
 ---
 
-### Accessibility | SEO
+### Accessibility - SEO
 
 **This project follows core accessibility and SEO principles:**
 
@@ -108,14 +108,14 @@ styles/
 - Color contrast considered in styles - verify with tools like Lighthouse and axe.
 - Mobile-first responsive design and touch-target sizes.
 
-#### Suggested checks before publishing:
+### Suggested checks before publishing:
 
 - Run Lighthouse in Chrome DevTools to evaluate accessibility and SEO score.
 - Run axe-core or aXe browser extension to catch common accessibility issues.
 
 ---
 
-#### Performance guidance
+### Performance guidance
 
 1. **Keep the site fast and lean:**
 
@@ -132,7 +132,7 @@ styles/
 
 ---
 
-#### Deployment
+### Deployment
 
 **This is a static site - deploy to any static hosting:**
 
@@ -144,7 +144,7 @@ No build step is required unless you add tooling; if you add a build | bundler |
 
 ---
 
-#### Contributing
+### Contributing
 
 **Small, focused contributions are welcome. Suggested workflow:**
 
@@ -174,7 +174,7 @@ No build step is required unless you add tooling; if you add a build | bundler |
 
 ---
 
-### Contact and Maintainer
+### Contact & Maintainer
 
 - **_Name:_** Md Abu Kayser - Full-Stack Engineer
 - **_Project:_** _elegant-marry-frontend_
@@ -187,7 +187,7 @@ If you’d like this README tailored for a specific purpose - such as **hiring m
 ---
 
 **Thank you for reviewing this project!**  
-It’s designed to be **clean, well-structured**, and **pleasant to explore** - perfect for interviews, portfolio showcases, or professional demos.
+It’s designed to be **clean, well-structured**, and **pleasant to explore** - perfect for portfolio showcases, or professional demos.
 
 **Thank you again and again for checking out Elegant Marry | Frontend. If you'd like, I can also:**
 
