@@ -40,16 +40,16 @@ This repository contains the client-side code (HTML, CSS, JavaScript, and assets
 
 ---
 
-### Demo Link
+## Demo Link
 
 - GitHub Pages: https://md-abu-kayser.github.io/elegant-marry-frontend/
 - git clone https://github.com/md-abu-kayser/elegant-marry-frontend.git
 
 ---
 
-### Project structure
+## Project structure
 
-**Top-level layout---> important files and folders:**
+**Top-level layout - important files and folders:**
 
 ```
 index.html           # Main static HTML entry
@@ -101,7 +101,7 @@ styles/
 
 ### Accessibility | SEO
 
-#### This project follows core accessibility and SEO principles:
+**This project follows core accessibility and SEO principles:**
 
 - Semantic HTML and logical heading order (H1 → H2 → ...).
 - Meaningful alt text for images (edit images in `images/` and set `alt` attributes).
