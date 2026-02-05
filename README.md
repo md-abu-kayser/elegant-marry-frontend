@@ -1,10 +1,10 @@
 <!--
-	Elegant Marry - Frontend
+	Elegant Marry - Static Wedding & Event Frontend
 	A clean, accessible, performant static frontend for an elegant wedding/event website.
 	Repo: md-abu-kayser/elegant-marry-frontend
 -->
 
-# Elegant Marry - Frontend
+# Elegant Marry - Static Wedding & Event Frontend
 
 **A high-quality, accessible, and performance-minded static frontend for wedding and event websites.**
 
