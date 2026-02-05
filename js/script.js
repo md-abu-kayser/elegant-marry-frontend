@@ -45,7 +45,7 @@ function changeTheme(themeName) {
 
   // Show Themes Change Notification
   showNotification(
-    `Theme changed to ${themeName.charAt(0).toUpperCase() + themeName.slice(1)}`
+    `Theme changed to ${themeName.charAt(0).toUpperCase() + themeName.slice(1)}`,
   );
 }
 
@@ -56,7 +56,7 @@ function toggleDarkMode() {
   if (isDark) {
     document.documentElement.setAttribute(
       "data-theme",
-      currentTheme.replace("dark-", "")
+      currentTheme.replace("dark-", ""),
     );
   } else {
     document.documentElement.setAttribute("data-theme", `dark-${currentTheme}`);
@@ -150,7 +150,7 @@ function handleNewsletterSubmit(e) {
 function selectPackage(packageName, price) {
   showNotification(
     `Added ${packageName} package ($${price}) to cart`,
-    "success"
+    "success",
   );
 
   // Animate Package
@@ -220,3 +220,4 @@ window.selectPackage = selectPackage;
 window.handleNewsletterSubmit = handleNewsletterSubmit;
 
 // JavaScript End
+// -----------------------------------------------------------------
