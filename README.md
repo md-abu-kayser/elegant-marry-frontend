@@ -189,7 +189,7 @@ If you’d like this README tailored for a specific purpose - such as **hiring m
 **Thank you for reviewing this project!**  
 It’s designed to be **clean, well-structured**, and **pleasant to explore** - perfect for portfolio showcases, or professional demos.
 
-**Thank you again and again for checking out Elegant Marry | Frontend. If you'd like, I can also:**
+**Thank you again and again for checking out Elegant Marry - Frontend. If you'd like, I can also:**
 
 - Add a polished project screenshot to this README.
 - Add a small CONTRIBUTING.md and CODE_OF_CONDUCT.
