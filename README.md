@@ -25,12 +25,23 @@
 
 <!-- Fonts -->
 
-[![Google Fonts](https://img.shields.io/badge/Google_Fonts-4285F4?logo=google&logoColor=white)](https://fonts.google.com/)
+[![Font Awesome](https://img.shields.io/badge/Font_Awesome-528DD7?logo=fontawesome&logoColor=white)](https://fontawesome.com/)
 
 <!-- Languages & Web Standards -->
 
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![ECMAScript Spec](https://img.shields.io/badge/ECMAScript-262-7A0BC0?logo=ecmascript&logoColor=white)](https://www.ecma-international.org/publications-and-standards/standards/ecma-262/)
+
+## Plain docs links
+
+- HTML (MDN) docs: https://developer.mozilla.org/en-US/docs/Web/HTML
+- CSS (MDN) docs: https://developer.mozilla.org/en-US/docs/Web/CSS
+- Tailwind CSS docs: https://tailwindcss.com/docs/
+- PostCSS docs / postcss.config: https://postcss.org/ (see also Tailwind PostCSS install guide)
+- daisyUI docs: https://daisyui.com/
+- Font Awesome docs: https://fontawesome.com/
+- JavaScript (MDN) docs: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+- ECMAScript (spec, ECMA-262) docs: https://www.ecma-international.org/publications-and-standards/standards/ecma-262/
 
 ---
 
