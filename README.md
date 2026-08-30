@@ -36,17 +36,6 @@
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![ECMAScript Spec](https://img.shields.io/badge/ECMAScript-262-7A0BC0?logo=ecmascript&logoColor=white)](https://www.ecma-international.org/publications-and-standards/standards/ecma-262/)
 
-## Plain docs links
-
-- HTML (MDN) docs: https://developer.mozilla.org/en-US/docs/Web/HTML
-- CSS (MDN) docs: https://developer.mozilla.org/en-US/docs/Web/CSS
-- Tailwind CSS docs: https://tailwindcss.com/docs/
-- PostCSS docs / postcss.config: https://postcss.org/ (see also Tailwind PostCSS install guide)
-- daisyUI docs: https://daisyui.com/
-- Font Awesome docs: https://fontawesome.com/
-- JavaScript (MDN) docs: https://developer.mozilla.org/en-US/docs/Web/JavaScript
-- ECMAScript (spec, ECMA-262) docs: https://www.ecma-international.org/publications-and-standards/standards/ecma-262/
-
 ---
 
 This repository contains the client-side code (HTML, CSS, JavaScript, and assets) powering a minimal, elegant, and responsive landing site suitable for wedding invitations, event details, RSVP, and photo galleries. It's intentionally lightweight and framework-agnostic to make it easy to host on any static hosting (GitHub Pages, Netlify, Vercel, S3, etc.).
@@ -217,7 +206,7 @@ No build step is required unless you add tooling; if you add a build | bundler |
 
 ### Contact & Maintainer
 
-- **_Name:_** Md Abu Kayser - Full-Stack Engineer
+- **_Name:_** Md Abu Kayser
 - **_Project:_** _elegant-marry-frontend_
 - **_Maintainer:_** [md-abu-kayser](https://github.com/md-abu-kayser)
 - **_Email:_** [abu.kayser.official@gmail.com](mailto:abu.kayser.official@gmail.com)
