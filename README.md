@@ -157,9 +157,22 @@ The current repository is a frontend showcase. A production wedding service woul
 - Open Graph metadata, canonical URLs, `robots.txt`, and `sitemap.xml`
 - Automated browser, accessibility, and visual regression tests
 
-## License
+### License
 
-Distributed under the MIT License. See [LICENSE](LICENSE) for the full text.
+- This project is licensed under the terms of the **[MIT License](./LICENSE)**.
+- You may replace or update the license as needed for client or proprietary projects.
+
+---
+
+### Contact and Maintainer
+
+- **Name:** Md Abu Kayser
+- **Project:** _elegant-marry-frontend_
+- **Maintainer:** [md-abu-kayser](https://github.com/md-abu-kayser)
+- **Email:** [abu.kayser.official@gmail.com](mailto:abu.kayser.official@gmail.com)
+- **GitHub:** [github.com/abu.kayser-official](https://github.com/md-abu-kayser)
+
+If you’d like this README tailored for a specific purpose - such as **hiring managers**, **open-source contributors**, or **client deliverables** - feel free to request a custom tone or format.
 
 ---
 
